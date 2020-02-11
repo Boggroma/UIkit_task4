@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2434137623EABAB200691A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434137523EABAB200691A29 /* AppDelegate.swift */; };
-		2434137823EABAB200691A29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434137723EABAB200691A29 /* ViewController.swift */; };
 		2434137B23EABAB200691A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2434137923EABAB200691A29 /* Main.storyboard */; };
-		2434137E23EABAB200691A29 /* StudentTableJuno.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2434137C23EABAB200691A29 /* StudentTableJuno.xcdatamodeld */; };
 		2434138023EABABB00691A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2434137F23EABABB00691A29 /* Assets.xcassets */; };
 		2434138323EABABB00691A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2434138123EABABB00691A29 /* LaunchScreen.storyboard */; };
+		2434138B23EABB3000691A29 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434138A23EABB3000691A29 /* StudentTableViewController.swift */; };
+		2434138D23EB043B00691A29 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2434138C23EB043B00691A29 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2434137223EABAB200691A29 /* StudentTableJuno.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentTableJuno.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2434137523EABAB200691A29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2434137723EABAB200691A29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2434137A23EABAB200691A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2434137D23EABAB200691A29 /* StudentTableJuno.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StudentTableJuno.xcdatamodel; sourceTree = "<group>"; };
 		2434137F23EABABB00691A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2434138223EABABB00691A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2434138423EABABB00691A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2434138A23EABB3000691A29 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
+		2434138C23EB043B00691A29 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				2434137523EABAB200691A29 /* AppDelegate.swift */,
-				2434137723EABAB200691A29 /* ViewController.swift */,
+				2434138A23EABB3000691A29 /* StudentTableViewController.swift */,
+				2434138C23EB043B00691A29 /* Model.swift */,
 				2434137923EABAB200691A29 /* Main.storyboard */,
 				2434137F23EABABB00691A29 /* Assets.xcassets */,
 				2434138123EABABB00691A29 /* LaunchScreen.storyboard */,
 				2434138423EABABB00691A29 /* Info.plist */,
-				2434137C23EABAB200691A29 /* StudentTableJuno.xcdatamodeld */,
 			);
 			path = StudentTableJuno;
 			sourceTree = "<group>";
@@ -138,9 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2434137823EABAB200691A29 /* ViewController.swift in Sources */,
 				2434137623EABAB200691A29 /* AppDelegate.swift in Sources */,
-				2434137E23EABAB200691A29 /* StudentTableJuno.xcdatamodeld in Sources */,
+				2434138D23EB043B00691A29 /* Model.swift in Sources */,
+				2434138B23EABB3000691A29 /* StudentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +340,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2434137C23EABAB200691A29 /* StudentTableJuno.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2434137D23EABAB200691A29 /* StudentTableJuno.xcdatamodel */,
-			);
-			currentVersion = 2434137D23EABAB200691A29 /* StudentTableJuno.xcdatamodel */;
-			path = StudentTableJuno.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2434136A23EABAB200691A29 /* Project object */;
 }
